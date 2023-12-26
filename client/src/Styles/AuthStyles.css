@@ -1,0 +1,52 @@
+/* Update your AuthStyles.css file with the following styles */
+
+.form-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+  padding: 20px;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  max-width: 400px; /* Set a maximum width for responsiveness */
+  margin-top: 30px;
+}
+
+.form-title {
+  color: #000; /* Black text color */
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+  margin-bottom: 15px;
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add border for form controls */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.form-control:hover {
+  border-color: #000; /* Change border color on hover */
+}
+
+.btn-primary {
+  background-color: #000; /* Black button background */
+  color: #fff; /* White button text color */
+  border: 1px solid #000; /* Black border */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+  background-color: #fff; /* White button background on hover */
+  color: #000; /* Black text color on hover */
+}
+
+/* Additional styling for better appearance */
+form {
+  width: 100%;
+}
