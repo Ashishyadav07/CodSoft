@@ -1,4 +1,4 @@
-/* Update your AuthStyles.css file with the following styles */
+/* Auth Styling */
 
 .form-container {
   margin: auto;
@@ -46,7 +46,6 @@
   color: #000; /* Black text color on hover */
 }
 
-/* Additional styling for better appearance */
 form {
   width: 100%;
 }
